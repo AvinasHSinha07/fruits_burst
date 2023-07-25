@@ -64,7 +64,7 @@
                 <a href="#slide4" class="btn btn-circle">❮</a> 
 
                 <div class="w-8/12 md:w-12/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center">Exotic tastes at your doorstep</h1>
+                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
                     <p class="text-white text-base md:text-3xl text-center">We supply highly quality organic products</p>
                     <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
                   </div>
@@ -78,7 +78,7 @@
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide1" class="btn btn-circle">❮</a>
                 <div class="w-8/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center">Exotic tastes at your doorstep</h1>
+                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
                     <p class="text-white text-base text-center">We supply highly quality organic products</p>
                     <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
                   </div> 
@@ -90,7 +90,7 @@
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide2" class="btn btn-circle">❮</a> 
                 <div class="w-8/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center">Exotic tastes at your doorstep</h1>
+                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
                     <p class="text-white text-base text-center">We supply highly quality organic products</p>
                     <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
                   </div>
@@ -102,7 +102,7 @@
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide3" class="btn btn-circle">❮</a>
                 <div class="w-8/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center">Exotic tastes at your doorstep</h1>
+                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
                     <p class="text-white text-base text-center">We supply highly quality organic products</p>
                     <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
                   </div> 
@@ -110,7 +110,7 @@
               </div>
             </div>
           </div>
-          <div class="hidden md:flex lg:flex flex max-w-4xl  items-center justify-around -mt-20 ml-44 bg-white fixed">
+          <div class="hidden md:hidden lg:flex flex max-w-4xl  items-center justify-around -mt-20 ml-44  bg-white absolute">
             <div>
                 <img src="./images/fruit1.png" alt="">
                 <h3>Strawberry</h3>
@@ -143,12 +143,80 @@
     <!-- header ends here -->
     <main>
         <!-- deal of the day starts -->
-        
+        <div class="lg:flex-row md:flex-row lg:mt-32 flex flex-col items-center justify-around max-w-5xl m-auto">
+            <div class="w-auto text-center mb-5 md:w-6/12 ">
+                <h3 class="text-4xl font-extrabold mb-4">Deal Of The Day</h3>
+                <p class="text-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div>
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:53;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+            </div>
+        </div>
         
         
         
         <!-- deal of the day ends -->
 
+        <!-- card starts -->
+        <div>
+            <div class="card w-96 bg-blue-500 shadow-xl">
+                <figure><img src="/images/fruit6.png" alt="" /></figure>
+                <div class="card-body text-center">
+                  <h2>12.90$ - 18.85$</h2>
+                  <h3>Apples</h3>
+
+                  <div class="rating rating-lg flex items-center justify-center">
+                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+
+                  <button class="btn" onclick="my_modal_5.showModal()">Details</button>
+                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <h3 class="font-bold text-lg">Hello!</h3>
+                <form method="dialog" class="modal-box">
+                <p class="py-4">Press ESC key or click the button below to close</p>
+                <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+                </div>
+              </div>
+        </div>
+
+
+
+
+        <!-- card ends -->
 
 
 
