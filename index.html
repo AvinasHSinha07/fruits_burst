@@ -23,11 +23,23 @@
                 <div class="flex-1">
                   <a class="text-3xl ml-2">Fruit Burst</a>
                 </div>
-                <div class="flex-none">
-                    <button class="btn btn-square btn-ghost">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                    </button>
-                  </div>
+                
+                
+                 
+                    <div class="dropdown relative">
+                      <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                      </label>
+                      <ul tabindex="0" class="menu menu-sm  dropdown-content  mt-3 z-[100] p-2 shadow bg-base-100 rounded-box absolute right-6 top-8 w-32">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All fruits</a></li>
+                      </ul>
+                    </div>
+                 
+      
+
               </div>
         </nav>
         <div class="hidden sm:hidden md:block lg:block ">
@@ -47,7 +59,7 @@
                 <div class="">
                   <div class="form-control ">
                     <div class="flex items-center justify-center relative">
-                   <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-96 rounded-3xl outline-none border-none" />
+                   <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-96 rounded-3xl focus:outline-none border-none" />
                    
                     <i class="fa-solid fa-magnifying-glass absolute right-3 text-xl"></i>
                   </div>
@@ -60,18 +72,18 @@
 
 
         <!-- slider starts here -->
-        <div class="p-3 md:max-w-5xl m-auto p-0 mt-5 mb-8  relative">
+        <div class="p-3 md:max-w-5xl m-auto  mt-5 mb-8  relative">
         <div class="carousel ">
-            <div id="slide1" class="carousel-item relative w-full md:h-full lg:h-full ">
+            <div id="slide1" class="carousel-item relative w-full h-full md:h-full lg:h-full ">
               <img src="./images/banner1.png" class="w-full rounded-lg " />
               
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
 
                 <div class="w-8/12 md:w-12/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="text-white text-base md:text-3xl text-center">We supply highly quality organic products</p>
-                    <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
+                    <h1 class="text-pink-600 text-base font-extrabold md:text-6xl text-center ">Exotic tastes at your doorstep</h1>
+                    <p class="text-pink-600 text-base md:text-3xl text-center">We supply highly quality organic products</p>
+                    <button class="md:p-4 p-2 rounded-xl bg-[#F85559] border-none outline-none text-white md:mt-8">Shop Now</button>
                   </div>
                 <a href="#slide2" class="btn btn-circle ">❯</a>
                
@@ -83,9 +95,9 @@
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide1" class="btn btn-circle">❮</a>
                 <div class="w-8/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="text-white text-base text-center">We supply highly quality organic products</p>
-                    <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
+                    <h1 class="text-pink-500  text-base  md:text-6xl text-center font-extrabold">Exotic tastes at your doorstep</h1>
+                    <p class="text-pink-500 text-base text-center">We supply highly quality organic products</p>
+                    <button class="md:p-4 p-2 rounded-xl bg-[#F85559] border-none outline-none text-white  md:mt-8">Shop Now</button>
                   </div> 
                 <a href="#slide3" class="btn btn-circle">❯</a>
               </div>
@@ -95,9 +107,9 @@
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide2" class="btn btn-circle">❮</a> 
                 <div class="w-8/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="text-white text-base text-center">We supply highly quality organic products</p>
-                    <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
+                    <h1 class="text-pink-600 text-xl md:text-6xl text-center font-extrabold">Exotic tastes at your doorstep</h1>
+                    <p class="text-pink-600 text-base text-center">We supply highly quality organic products</p>
+                    <button class="md:p-4 p-2 rounded-xl bg-[#F85559] border-none outline-none text-white  md:mt-8">Shop Now</button>
                   </div>
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
@@ -107,9 +119,9 @@
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
                 <a href="#slide3" class="btn btn-circle">❮</a>
                 <div class="w-8/12 flex items-center flex-col">
-                    <h1 class="text-white text-xl md:text-6xl text-center font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="text-white text-base text-center">We supply highly quality organic products</p>
-                    <button class="btn bg-[#F85559] border-none outline-none text-white mt-2">Shop Now</button>
+                    <h1 class="text-pink-600 text-xl md:text-6xl text-center font-extrabold">Exotic tastes at your doorstep</h1>
+                    <p class="text-pink-600 text-base text-center">We supply highly quality organic products</p>
+                    <button class="md:p-4 p-2 rounded-xl bg-[#F85559] border-none outline-none text-white  md:mt-8">Shop Now</button>
                   </div> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
@@ -119,23 +131,23 @@
           <div class="hidden md:hidden lg:flex flex max-w-4xl  items-center justify-around -mt-20 ml-44  bg-white absolute">
             <div>
                 <img src="./images/fruit1.png" alt="">
-                <h3>Strawberry</h3>
+                <h3 class="text-center">Strawberry</h3>
             </div>
             <div>
                 <img src="./images/fruit2.png" alt="">
-                <h3>Orange</h3>
+                <h3 class="text-center">Orange</h3>
             </div>
             <div>
                 <img src="./images/fruit3.png" alt="">
-                <h3>Mango</h3>
+                <h3 class="text-center">Mango</h3>
             </div>
             <div>
                 <img src="./images/fruit4.png" alt="">
-                <h3>Strawberry</h3>
+                <h3 class="text-center">Strawberry</h3>
             </div>
             <div>
                 <img src="./images/fruit5.png" alt="">
-                <h3>Mango</h3>
+                <h3 class="text-center">Mango</h3>
             </div>
         </div>
           
@@ -195,7 +207,7 @@
                 <figure><img class="flex items-center justify-center" src="./images/fruit6.png" alt="" /></figure>
                 <h2 class="text-xl mt-6">12.90$ - 18.85$</h2>
               </div>
-              <hr class="w-32 md:w-48  m-auto h-1 border-2 rounded-full">
+              <hr class="w-32 md:w-48  m-auto md:h-0 md:border-2 rounded-full">
                 <div class="card-body text-center">
                  
 
@@ -250,7 +262,7 @@
                   <figure><img class="flex items-center justify-center" src="./images/fruit7.png" alt="" /></figure>
                   <h2 class="text-xl mt-6">12.90$ - 18.85$</h2>
                 </div>
-                <hr class="w-32 md:w-48 m-auto h-1 border-2 rounded-full">
+                <hr class="w-32 md:w-48 m-auto h-0 border-2 rounded-full">
                   <div class="card-body text-center">
                    
   
@@ -305,7 +317,7 @@
                     <figure><img class="flex items-center justify-center" src="./images/fruit8.png" alt="" /></figure>
                     <h2 class="text-xl mt-6">12.90$ - 18.85$</h2>
                   </div>
-                  <hr class="w-32 md:w-48 m-auto h-1 border-2 rounded-full">
+                  <hr class="w-32 md:w-48 m-auto h-0 border-2 rounded-full">
                     <div class="card-body text-center">
                      
     
@@ -360,7 +372,7 @@
                       <figure><img class="flex items-center justify-center" src="./images/fruit9.png" alt="" /></figure>
                       <h2 class="text-xl mt-6">12.90$ - 18.85$</h2>
                     </div>
-                    <hr class="w-32 md:w-48 m-auto h-1 border-2 rounded-full">
+                    <hr class="w-32 md:w-48 m-auto h-0 border-2  rounded-full">
                       <div class="card-body text-center">
                        
       
@@ -562,11 +574,11 @@
 
           <div>
             <div>
-              <div class="flex flex-col-reverse md:flex-row items-center md:items-start  gap-2 mb-8">
+              <div class="flex flex-col-reverse md:flex-row items-center md:items-start  gap-2 mb-5">
                 <div class="text-center md:text-right flex flex-col items-center md:items-end">
                   <h3 class="text-2xl font-bold">Integrated Supplier</h3>
                   <hr class="w-36 h-1 bg-black opacity-40 mt-3 mb-3" >
-                  <p class="text-base text-center opacity-60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="text-base text-center md:text-right opacity-60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
                 <div class="avatar  ">
                   <div class="w-9 rounded-full bg-gray-700 opacity-20 ">
@@ -580,7 +592,7 @@
               </div>
             </div>
             <div>
-              <div class="flex flex-col-reverse md:flex-row items-center md:items-start  gap-2 mb-8">
+              <div class="flex flex-col-reverse md:flex-row items-center md:items-start  gap-2 mb-5">
                 <div class="text-center md:text-right flex flex-col items-center md:items-end">
                   <h3 class="text-2xl font-bold">Sustainable Practice</h3>
                   <hr class="w-36 h-1  bg-black opacity-40 mt-3 mb-3" >
@@ -598,7 +610,7 @@
               </div>
             </div>
             <div>
-              <div class="flex flex-col-reverse md:flex-row items-center md:items-start  gap-2 mb-8">
+              <div class="flex flex-col-reverse md:flex-row items-center md:items-start  gap-2 mb-5">
                 <div class="text-center md:text-right flex flex-col items-center md:items-end">
                   <h3 class="text-2xl font-bold">The Benefits Only</h3>
                   <hr class="w-36 h-1  bg-black opacity-40 mt-3 mb-3" >
